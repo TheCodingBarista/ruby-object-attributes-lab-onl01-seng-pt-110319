@@ -1,8 +1,8 @@
 class Person
   
-  def intitialize(name, breed)
+  def intitialize(name, job)
     @name = name
-    @breed = breed
+    @job = job
   end
   
   def name=(name) 
@@ -14,12 +14,12 @@ class Person
   end
 
   
-  def breed=(breed)
-    @breed = breed
+  def job=(job)
+    @job = job
   end
   
-  def breed
-    @breed
+  def job
+    @job
   end
   
 end
